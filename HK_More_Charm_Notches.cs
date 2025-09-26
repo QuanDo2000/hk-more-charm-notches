@@ -47,7 +47,7 @@ namespace HK_More_Charm_Notches
         {
             if (name == "charmSlots")
             {
-                Log($"charmSlots updated to {orig}; current is {PlayerData.instance.charmSlots} (modded to {PlayerData.instance.charmSlots * 2})");
+                Log($"charmSlots updated to {orig}; current is {PlayerData.instance.charmSlots} (modded to {PlayerData.instance.charmSlots * 3})");
             }
 
             return orig;
@@ -57,7 +57,7 @@ namespace HK_More_Charm_Notches
         {
             if (name == "charmSlots")
             {
-                return orig * 2;
+                return orig * 3;
             }
             else
             {
